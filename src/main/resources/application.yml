@@ -12,7 +12,9 @@ spring:
     properties:
       hibernate:
         format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect  # MySQL 방언 설정
     open-in-view: true
+
 
 telegram:
   bot:
